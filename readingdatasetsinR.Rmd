@@ -9,10 +9,21 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Readign datasets in R
+## Reading datasets in R
 
+    
+```{r}
+library(tidyverse) #loading tidyverse package
+example_data <- read_csv("example_data.csv")
+View(example_data)
 
-
+```
+# Importing Global Burden Disease Data
+  Its the data about the number of poeple die each year with this cause
+```{r}
+gbd_data <- read_csv("data/global_burden_disease_cause-year.csv")
+```
+  
 
 
 
