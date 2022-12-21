@@ -1,0 +1,18 @@
+---
+title: "ReadingDatainR"
+author: "Umair Waseem"
+date: "2022-12-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Readign datasets in R
+
+
+
+
+
+
